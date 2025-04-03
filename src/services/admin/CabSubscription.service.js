@@ -1,5 +1,5 @@
 import { ApiError } from "../../utils/ApiError.js";
-import { cabSubscriptionRepository } from "../../repository/Admin/cabSubscription.repository.js";
+import { cabSubscriptionRepository } from "../../repository/Admin/CabSubscription.repository.js";
 
 const createCabSubscription = async (subscriptionData) => {
   return await cabSubscriptionRepository.createCabSubscription(subscriptionData);
